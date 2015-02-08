@@ -10,7 +10,6 @@
     font-style: normal;
  
 }
-
 @font-face {
     font-family: 'advent_proextralight';
     src: url('adventpro-extralight-webfont.eot');
@@ -23,14 +22,12 @@
     font-style: normal;
  
 }
-
 body {
 	text-align: right;
 	background-image: url("trans2.png");
 	background-position: 65%;
 	background-repeat: no-repeat;
 }
-
 #left {
 	margin-left: 50%;
 	font-family: advent_proextralight;
@@ -42,14 +39,11 @@ body {
 	text-align: left;
 	margin-left: 10%;
 }
-
-
-
  .nav{
     list-style:none;
     margin:0;
     padding:0;
-    text-align:center;
+
 }
 .nav li{
     display:inline;
@@ -57,7 +51,6 @@ body {
 .nav a{
     display:inline-block;
     padding:10px;
+    text-align:left;
 
 }
-
-
