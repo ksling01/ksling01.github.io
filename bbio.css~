@@ -36,16 +36,15 @@ body {
 	margin-top: 20%;
 	margin-right: 60%;
 	font-family: advent_proextralight;
-	text-align: low;
 }
 #top {
 	font-size: 500%;
 	font-family: headline_onehplhs;
-	text-align: right;
+	text-align: left;
 	margin-right: 5%;
 }
 
-}
+
 
  .nav{
     list-style:none;
