@@ -17,8 +17,8 @@
 		<h2 class="text"><img src="headshot.png" alt="portrait of Kyle"/></h2>
 		<ul class="nav">
 			
-				<li><a href="baseball_bio.html"><h2>Engineering</h2></a></li>
-				<li><a href="engineering_bio.html"><h2>Baseball</h2></a></li></ul>
+				<li><a href="bio.html"><h2>Engineering</h2></a></li>
+				<li><a href="baseball_bio.html"><h2>Baseball</h2></a></li></ul>
 		
 	
   </body>
