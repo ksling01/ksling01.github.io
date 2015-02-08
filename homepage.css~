@@ -13,7 +13,7 @@ Body {
 	text-align: center;
 	font-family: Arial;
   	background-image: url("trans.png");
-	background-position: 63%;
+	background-position: 65%;
 	background-repeat: no-repeat;
 }
 
@@ -40,5 +40,6 @@ Body {
     display:inline-block;
     padding:10px;
 }
+
 
 

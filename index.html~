@@ -14,10 +14,12 @@
 	</h1>
 	<h3>Electrical Engineer. Baseball Player.</h3>
 	
-		<h2><img src="headshot.png" alt="portrait of Kyle"/></h2>
-		<ul class="nav"><li><a href="bio.html">bio</a></li>	
-		<li><a href="resume.html">Resume</a></li>
-		</ul>
+		<h2 class="text"><img src="headshot.png" alt="portrait of Kyle"/></h2>
+		<ul class="nav">
+			
+				<li><a href="baseball_bio.html"><h2>Engineering</h2></a></li>
+				<li><a href="engineering_bio.html"><h2>Baseball</h2></a></li></ul>
+		
 	
   </body>
 
