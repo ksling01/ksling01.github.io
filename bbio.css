@@ -27,10 +27,12 @@ body {
 	background-image: url("trans3.png");
 	background-position: 65%;
 	background-repeat: no-repeat;
+}
 #left {
 	margin-top: 20%;
 	margin-right: 60%;
 	font-family: advent_proextralight;
+	text-align: left;
 }
 #top {
 	font-size: 500%;
