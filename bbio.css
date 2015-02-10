@@ -25,10 +25,8 @@
 body {
 	text-align: left;
 	background-image: url("trans3.png");
-	background-attachment: fixed;
-	background-position: right;
+	background-position: 65%;
 	background-repeat: no-repeat;
-}
 #left {
 	margin-top: 20%;
 	margin-right: 60%;

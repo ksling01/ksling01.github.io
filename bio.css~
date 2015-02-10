@@ -51,6 +51,5 @@ body {
 .nav a{
     display:inline-block;
     padding:10px;
-    text-align:left;
 
 }
