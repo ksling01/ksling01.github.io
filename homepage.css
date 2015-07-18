@@ -12,7 +12,8 @@
 Body {
 	text-align: center;
 	font-family: Arial;
-  	background-image: url("trans.png");
+  	/
+  	/*background-image: url("trans.png");*/
 	background-position: 65%;
 	background-repeat: no-repeat;
 }
