@@ -10,15 +10,16 @@
     font-style: normal;
 }
 Body {
-	text-align: left;
+	text-align: center;
 	font-family: Arial;
   	background-image: url("trans.png");
 	background-position: 65%;
 	background-repeat: no-repeat;
 }
- #name  {
+ #namebar  {
 	font-family: damionregular, Verdana ;
 	font-size: 350% 
+	text-align: left;
 	}
 .nav{
     list-style:none;
