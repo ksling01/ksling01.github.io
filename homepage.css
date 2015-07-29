@@ -1,11 +1,11 @@
 	@font-face {
     font-family: 'damionregular';
-    src: url('damion-regular-webfont.eot');
-    src: url('damion-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('damion-regular-webfont.woff2') format('woff2'),
-         url('damion-regular-webfont.woff') format('woff'),
-         url('damion-regular-webfont.ttf') format('truetype'),
-         url('damion-regular-webfont.svg#damionregular') format('svg');
+    src: url('homepage/damion-regular-webfont.eot');
+    src: url('homepage/damion-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('homepage/damion-regular-webfont.woff2') format('woff2'),
+         url('homepage/damion-regular-webfont.woff') format('woff'),
+         url('homepage/damion-regular-webfont.ttf') format('truetype'),
+         url(homepage/'damion-regular-webfont.svg#damionregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
