@@ -30,8 +30,8 @@ xmlDoc=xmlhttp.responseXML;
 document.write("<table><tr><th>Artist</th><th>Title</th></tr>");
 var x=xmlDoc.getElementsByTagName("info");
 
-  document.write(x[i].getElementsByTagName("pitch")[0].childNodes[0].nodeValue);
-  document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+  document.write(x[0].getElementsByTagName("pitch")[0].childNodes[0].nodeValue);
+  document.write(x[0].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
 </script>
 	
 	
