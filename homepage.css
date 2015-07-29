@@ -5,7 +5,7 @@
          url('damion-regular-webfont.woff2') format('woff2'),
          url('damion-regular-webfont.woff') format('woff'),
          url('damion-regular-webfont.ttf') format('truetype'),
-         url(homepage/'damion-regular-webfont.svg#damionregular') format('svg');
+         url('homepage/damion-regular-webfont.svg#damionregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
