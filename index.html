@@ -4,53 +4,25 @@
 
   <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="homepage.css"/>
+	<link rel="stylesheet" href="homepage/homepage.css"/>
 	<title>Kyle Slinger</title>
 
   </head>
   <body class="back">
 	<h1 id="name">
-		Kyle Slinger's Website is currently under construction. Please come back at a later time
+		Kyle Slinger's Website is currently under construction. Please come back at a later time!
 	</h1>
-	
-	
-	<script>
-if (window.XMLHttpRequest)
-  {// code for IE7+, Firefox, Chrome, Opera, Safari
-  xmlhttp=new XMLHttpRequest();
-  }
-else
-  {// code for IE6, IE5
-  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-xmlhttp.open("GET","homepage_info.xml",false);
-xmlhttp.send();
-xmlDoc=xmlhttp.responseXML; 
-
-document.write("<table><tr><th>Artist</th><th>Title</th></tr>");
-var x=xmlDoc.getElementsByTagName("info");
-
-  document.write(x[0].getElementsByTagName("pitch")[0].childNodes[0].nodeValue);
-  document.write(x[0].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
-</script>
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	<h3>Hi I'm Kyle. I love building unique things, sharing inspiring ideas and helping teach people about technology to enrich their lives.</h3>
 	
-		<!--<h2 class="head"><img src="headshot.png" alt="portrait of Kyle"/></h2>-->
+		<h2 class="head"><img src="homepage/headshot.png" alt="portrait of Kyle"/></h2>
 		<div class="text">
 			I am a recent graduate of Tufts University with a degree in electrical engineering where I also played baseball.
 		There I worked on various hardware and software projects to refine my skills. In software I am really interested
 		in web development and the internet of things. This is included website development as well as networking.
 		In hardware I worked a lot with microprocessor development. Using them 
-		to develop devices that help with small tasks that help peoples livesy.
+		to develop devices that help with small tasks that help peoples lives.
 		</div>
 		
 		<div>
@@ -60,8 +32,8 @@ var x=xmlDoc.getElementsByTagName("info");
 		</div>
 		<ul class="nav">
 			
-				<li><a href="bio.html"><h2>Resume</h2></a></li>
-				<li><a href="baseball_bio.html"><h2>Projects</h2></a></li></ul>
+				<li><a href="resume/bio.html"><h2>Resume</h2></a></li>
+				<li><a href="projects/projects.html"><h2>Projects</h2></a></li></ul>
 		
 	
   </body>

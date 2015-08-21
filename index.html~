@@ -4,21 +4,36 @@
 
   <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="homepage.css"/>
+	<link rel="stylesheet" href="homepage/homepage.css"/>
 	<title>Kyle Slinger</title>
 
   </head>
   <body class="back">
 	<h1 id="name">
-		Kyle Slinger
+		Kyle Slinger's Website is currently under construction. Please come back at a later time!
 	</h1>
-	<h3>Electrical Engineer. Baseball Player.</h3>
 	
-		<h2 class="text"><img src="headshot.png" alt="portrait of Kyle"/></h2>
+	
+	<h3>Hi I'm Kyle. I love building unique things, sharing inspiring ideas and helping teach people about technology to enrich their lives.</h3>
+	
+		<h2 class="head"><img src="homepage/headshot.png" alt="portrait of Kyle"/></h2>
+		<div class="text">
+			I am a recent graduate of Tufts University with a degree in electrical engineering where I also played baseball.
+		There I worked on various hardware and software projects to refine my skills. In software I am really interested
+		in web development and the internet of things. This is included website development as well as networking.
+		In hardware I worked a lot with microprocessor development. Using them 
+		to develop devices that help with small tasks that help peoples lives.
+		</div>
+		
+		<div>
+			I am a California native and currently reside in the East Bay Area. I am looking for a fast paced working environment, to learn with others about 
+			technology and how it can help the world. I want to go somehwere everyday that is intellectually stimulating.
+			I want to  be challenged everyday by myself and my peers to see what we can achieve. 
+		</div>
 		<ul class="nav">
 			
-				<li><a href="bio.html"><h2>Engineering</h2></li>
-				<li><a href="baseball_bio.html"><h2>Baseball</h2></li></ul>
+				<li><a href="resume/bio.html"><h2>Resume</h2></a></li>
+				<li><a href="baseball_bio.html"><h2>Projects</h2></a></li></ul>
 		
 	
   </body>
