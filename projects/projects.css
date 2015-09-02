@@ -1,0 +1,15 @@
+a:link {    /* unvisited link */
+        color: #0000CC;
+        text-decoration: none;
+}
+a:visited {    /* visited link */
+        color: #00003D;
+}
+a:hover {    /* mouse over link */
+        color: #FF0000;
+        text-decoration: underline;
+}
+    a:active {    /* active link */
+        color: #0000FF;
+}
+

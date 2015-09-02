@@ -41,3 +41,19 @@ Body {
 	
 }
 
+
+a:link {    /* unvisited link */
+        color: #0000CC;
+        text-decoration: none;
+}
+a:visited {    /* visited link */
+        color: #00FF00;
+}
+a:hover {    /* mouse over link */
+        color: #FF00FF;
+        text-decoration: underline;
+}
+    a:active {    /* active link */
+        color: #0000FF;
+}
+
