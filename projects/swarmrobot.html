@@ -1,0 +1,36 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="projects.css"/>
+	<title>Projects</title>
+
+</head>
+<body>
+
+<nav role='navigation'>
+<h1>
+		Kyle Slinger
+	</h1>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../resume/Kyle_Slingers_Resume.pdf">Resume</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="#">Contact</a>
+	<ul>
+        <li><a href="mailto:kyslinger10@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/profile/view?id=AAIAAA3g6F0BTtdljMl-rNSt7VqgbXgxOpN6S7E&trk=nav_responsive_tab_profile">LinkedIn</a></li>
+      </ul>
+</li>
+  </ul>
+</nav> 
+
+<h1>Swarm Robot</h1>
+<img class="inline" src="pictures/swarm1.jpg" alt="picture of robot1"/>
+<img class="inline" src="pictures/swarm2.jpg" alt="picture of robot2"/>
+<img class="inline" src="pictures/swarm3.jpg" alt="picture of robot3"/>
+<div>
+The swarm robot project was constructed out of analog components and an Arduino Mega Development Board. The Mega development board was used as a finite state machine to run the autonomous robot. Once powered up the board was programmed to start moving the forward direction and look for red or blue markings on the floor via an IR light sensor. If the robot were to hit an object it would stop and move a different direction to avoid getting stuck. Once a color was detected the machine would stop and send out an IR broadcast to any other swarm robots around that it has detected a color. An LED with that color would light up and the first letter corresponding to that color would show on an 8 bit display. It would then follow that color in a line for as far as it goes. If the end was reached it would then turn around and follow the line back to the other end point. Once it has reached the other end it would send out another broadcast that it has reached the end and turn off its color sensors. the Arduino board then moves into a listening state where it will recieve any IR broadcasted by other bots. The bot is fully autonomous and provides all its own power on board. 
+</div>
+
+</body>
+</html>

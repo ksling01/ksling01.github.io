@@ -1,0 +1,33 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="projects.css"/>
+	<title>Projects</title>
+
+</head>
+<body>
+<nav role='navigation'>
+<h1>
+		Kyle Slinger
+	</h1>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../resume/Kyle_Slingers_Resume.pdf">Resume</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="#">Contact</a>
+	<ul>
+        <li><a href="mailto:kyslinger10@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/profile/view?id=AAIAAA3g6F0BTtdljMl-rNSt7VqgbXgxOpN6S7E&trk=nav_responsive_tab_profile">LinkedIn</a></li>
+      </ul>
+</li>
+  </ul>
+</nav> 
+
+<h1>Digital Counter</h1>
+<img class="center" src="pictures/digitalcounter.jpg" alt="picture of digital counter"/>
+<div class="counter">
+The digital counter was build on a breadboard using only logic gates and an input clock. The clock would come into the circuit and it would be divided up into different speeds. A small set of 4 switches could be toggled to represent four bits of binary adding up to 15. When the reset button was pressed the switch would be read by the circuit and it would start counting down from the number representedin binary. This was done with and, or, xor and adder logic chips. The signal would be propagated into an EEPROM chip. The EEPROM was programmed to read the inputs and send out certain outputs to display on an 8x8 LED matrix. The matrix would have to scan down the certain light combinations as fast as the clock coming in to have the appearance of the numbers on it. When the numbers reached zero on the matrix a small melody was played on a speaker using a division of the clock cycle. The 4 four switches could then be toggled and the timer started again. 
+</div>
+
+</body>
+</html>
