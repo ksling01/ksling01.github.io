@@ -13,20 +13,8 @@
 
 
 <nav role='navigation'>
-<h1>
-		Kyle Slinger
-	</h1>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="resume/Kyle_Slingers_Resume.pdf">Resume</a></li>
-    <li><a href="projects/projects.html">Projects</a></li>
-    <li><a href="#">Contact</a>
-	<ul>
-        <li><a href="mailto:kyslinger10@gmail.com">Email</a></li>
-        <li><a href="https://www.linkedin.com/profile/view?id=AAIAAA3g6F0BTtdljMl-rNSt7VqgbXgxOpN6S7E&trk=nav_responsive_tab_profile">LinkedIn</a></li>
-      </ul>
-</li>
-  </ul>
+>
+ 
 </nav>  
 
 
